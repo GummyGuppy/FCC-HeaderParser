@@ -1,14 +1,19 @@
 'use strict'
 
 const express = require('express')
-
 const app = express()
 
 app.get('/', (req, res) => {
 
-  let headers = JSON.stringify(req.headers)
+  console.log(req.language)
 
-  res.send(JSON.parse(headers))
+  console.log(req.acceptsLanguage)
+
+  res.json({
+    'Browser': req.headers['user-agent'],
+    'IP': req.hostname,
+    'Langauge': req.acceptsLanguage
+  })
 
 })
 
