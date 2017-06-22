@@ -10,6 +10,6 @@ Can retrieve the following:
 2) language
 3) operating system for browser
 
-## Technologies
+## Technologies:
 
 ![](http://mean.io/wp-content/themes/twentysixteen-child/images/express.png)
