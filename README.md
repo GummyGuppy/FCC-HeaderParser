@@ -12,4 +12,4 @@ Can retrieve the following:
 
 ## Technologies
 
-!(http://mean.io/wp-content/themes/twentysixteen-child/images/express.png)
+![](http://mean.io/wp-content/themes/twentysixteen-child/images/express.png)
